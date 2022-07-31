@@ -18,3 +18,5 @@ Aplicación que encripta un texto de acuerdo a las siguientes reglas:
 Por ejemplo: <br>
 `"gato" => "gaitober"` <br>
 `"gaitober" => "gato"` <br>
+
+**Capturas:**<br>
