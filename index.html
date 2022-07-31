@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/aluraIcon.ico">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><img src="img/aluraLogo.svg"></h1>
+    </header>
+    <main class="container">
+        <section> 
+            <textarea type="text" class="input-text" id="input-text" cols="33" rows="16"  placeholder="Ingrese el texto aqui"></textarea>
+            
+            <div class="botones">
+                <label><img src="img/icon_info.svg"> Sólo letras minúsculas y sin acentos</label>
+                <button id="btn-encriptar" onclick="btnEncriptar();">Encriptar</button>
+                <button id="btn-desencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="output-text">
+            <img class="imagen" src="img/image.svg" >
+            <textarea class="resultado" id="texto">Ningún mensaje fue encontrado</textarea>
+            <p class="mensaje-output">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="btn-copiar" style="visibility:hidden;" onclick="copiar();">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <h3> &#169;ALURA - Oracle ONE 2022</h3>
+        <h2>Powered by Vane Vilte</h2>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
